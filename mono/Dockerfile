@@ -1,6 +1,5 @@
 FROM ubuntu:focal
 
-# This links to github packages
 LABEL org.opencontainers.image.source https://github.com/shanehughes1990/docker-containers
 
 ARG DEBIAN_FRONTEND="noninteractive"

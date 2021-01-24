@@ -5,7 +5,7 @@ on:
       - main
     paths:
       - "!**"
-      - "base-mono/**"
+      - "mono/**"
 jobs:
   login-build-and-push:
     runs-on: ubuntu-latest
